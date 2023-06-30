@@ -38,3 +38,7 @@ let myArray: Array<string> = ['kamar', 'baraka', 'kombe'];
 myArray.push('karisa', 'katore');
 myArray.forEach(v => console.log(v));
 console.log(typeof myArray);
+
+let credentials: Array<string | number> = ["kamar", 23, 25000]
+
+console.log(typeof credentials);
